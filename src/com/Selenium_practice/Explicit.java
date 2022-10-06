@@ -9,6 +9,7 @@ public static void main(String[] args) {
 	System.setProperty("webdriver.chrome.driver",
 			"C:\\Users\\hp\\SeleniumPractice\\Selenium_Basic\\Driver\\chromedriver.exe");
 	
+	System.out.println("Felix updated");
 	WebDriver driver= new ChromeDriver();
 	 driver.get("https://www.amazon.in/");
 	 WebDriverWait wait=new WebDriverWait(driver, null);
